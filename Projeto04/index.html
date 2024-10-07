@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Passe a mensagem</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mensagem">
+            <p>
+                <h3 style="text-align: center;font-weight: bold;">Passe a mensagem</h3>
+                <p style="border-bottom: 2px solid rgba(132, 132, 132, 0.15);"></p>
+            </p>
+            <p>
+                <label for="mensagem-input">Digite a mensagem</label>
+                <br>
+                <button style="border-radius: 5px 0 0 5px;"><i class="fa-regular fa-envelope"></i></button><input id="mensagem-input" type="text">
+            </p>
+            <p><button onclick="getMensagem()">Enviar</button></p>
+            <p id="mensagem-output" style="text-align: center;text-transform: uppercase;"></p>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

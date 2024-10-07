@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body{
+    font-family: "Poiret One", sans-serif;
+    overflow: hidden;
+    background-color: crimson;
+}
+
+.container{
+    border: 1px solid;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relogioDigital{
+    border: 1px solid ;
+
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.517);
+}
+
+.relogioDigital h1{
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 5rem;  /* 1rem = 16pixels */
+}
+
+
+@media(max-width: 728px){
+    #bar1, #bar2{
+        display: none;
+    }
+    .relogioDigital{
+        text-align: center;
+        width: 100%;
+    }
+    .relogioDigital h1{
+        display: block;
+    }
+}
+
+@media(max-width: 480px){
+    .relogioDigital h1 {
+        font-size: 4rem;
+    }
+}
+
