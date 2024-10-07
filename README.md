@@ -8,6 +8,8 @@
 
 Este repositório contém algums projetos desenvolvidos para aprimorar minhas habilidades técnicas em **JavaScript**. Ao concluir cada projeto, aprofundei meu entendimento sobre essas tecnologias essenciais, com foco em boas práticas de desenvolvimento na lógica.
 
+Acesse o link para ver os meus projetos: https://lucasalexsant.github.io/ProjetosLinguagemJavaScript/
+
 ## 🎨 Recursos
 
 - **JavaScript**: Adiciona interatividade e animações aos elementos das páginas.
